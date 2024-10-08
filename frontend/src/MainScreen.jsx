@@ -45,7 +45,7 @@ const MainScreen = ({ socket }) => {
         <div className='mainscreenmain'>
             <h1>KBC Game</h1>
             <p>Scan Qr to play</p>
-            <QRCode className='qr' value="http://localhost:5173/player" size={128} />
+            <QRCode className='qr' value="https://kbc9457.vercel.app/player" size={128} />
             <h2>Players</h2>
             <ul className='players'>
                 {players && players.length > 0 ? (
