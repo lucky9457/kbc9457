@@ -1,0 +1,96 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.mainscreenmain {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  background-color: burlywood;
+
+  min-height: 100vh;
+  height: 100%;
+
+}
+
+.players {
+  background-color: aliceblue;
+  width: 300px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.qr {
+  width: 200px;
+  height: 200px;
+}
+
+.playerscreen {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  background-color: burlywood;
+
+  min-height: 100vh;
+  height: 100%;
+}
+
+.joinhead {
+  margin-bottom: 10px;
+}
+
+.inputclass {
+  margin-bottom: 20px;
+  width: 300px;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.questioncard {
+  background-color: aliceblue;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.listop {
+  list-style-type: none;
+  background: none;
+  width: 300px;
+}
+
+.ul {
+  padding-left: 0px;
+}
+
+.optButon {
+  width: 200px;
+  text-align: left;
+
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
