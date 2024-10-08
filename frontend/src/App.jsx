@@ -6,7 +6,7 @@ import io from 'socket.io-client';
 import MainScreen from './MainScreen';
 import PlayerScreen from './PlayerScreen';
 
-const socket = io.connect('http://localhost:5000');
+const socket = io.connect('https://kbc9457.onrender.com');
 
 function App() {
   return (
